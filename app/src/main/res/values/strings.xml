@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TechLife</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="entrar_como_ong">Entrar como Ong</string>
+    <string name="entrar_como_voluntario">Entrar como voluntario</string>
+    <string name="entrar_a_foro_ong">Foro</string>
+    <string name="proyectos_ong">Proyectos</string>
+    <string name="postulantes_proyecto">Postulantes</string>
+    <string name="perfil_ong">Perfil</string>
+    <string name="entrar_a_foro_voluntario">Foro</string>
+    <string name="proyectos_voluntario">Buscar Proyectos</string>
+    <string name="horarios_voluntario">Horarios</string>
+    <string name="perfil_voluntario">Perfil</string>
+</resources>

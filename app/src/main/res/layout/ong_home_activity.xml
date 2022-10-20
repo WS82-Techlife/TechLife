@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="127dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112"
+        app:srcCompat="@drawable/leaf" />
+
+    <TextView
+        android:id="@+id/tvAppName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:text="@string/app_name"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btForoOng"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="116dp"
+        android:backgroundTint="#7fa208"
+        android:text="@string/entrar_a_foro_ong"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAppName2" />
+
+    <Button
+        android:id="@+id/btProyectosOng"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="#7fa208"
+        android:text="@string/proyectos_ong"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btForoOng" />
+
+    <Button
+        android:id="@+id/btPostulantes"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="#7fa208"
+        android:text="@string/postulantes_proyecto"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btProyectosOng" />
+
+    <Button
+        android:id="@+id/btPerfilOng"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="116dp"
+        android:backgroundTint="#7fa208"
+        android:text="@string/perfil_ong"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btPostulantes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
