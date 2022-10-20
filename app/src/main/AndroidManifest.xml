@@ -24,6 +24,7 @@
         <activity android:name=".OngHomeActivity" />
         <activity android:name=".LogingOngActivity" />
         <activity android:name=".LogingVoluntarioActivity" />
+        <activity android:name=".VoluntarioProfileActivity"/>
     </application>
 
 </manifest>
