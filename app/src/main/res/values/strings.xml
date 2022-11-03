@@ -24,8 +24,14 @@
     <string name="nombres_y_apellidos">Nombres y Apellidos:</string>
     <string name="correo">Correo:</string>
     <string name="u201415040_upc_edu_pe">u201822206@upc.edu.pe</string>
-    <string name="editar">Editar</string>
-    <string name="eliminar">Eliminar</string>
+    <string name="editar">Edit</string>
+    <string name="eliminar">Delete</string>
+    <string name="separador_horas">|</string>
+    <string name="cancelar">Cancel</string>
+    <string name="save">Save</string>
+
+
+
 
 
 

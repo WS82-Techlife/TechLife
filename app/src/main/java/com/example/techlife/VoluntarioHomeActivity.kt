@@ -9,9 +9,14 @@ class VoluntarioHomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.voluntario_home_activity)
         val btprofilevoluntario = findViewById<Button>(R.id.btPerfilVoluntario)
+        val btProyectosvoluntario = findViewById<Button>(R.id.btProyectosVoluntario)
 
         btprofilevoluntario.setOnClickListener {
             val intent = Intent(this, VoluntarioProfileActivity::class.java)
+            startActivity(intent)
+        }
+        btProyectosvoluntario.setOnClickListener {
+            val intent = Intent(this, Projects::class.java)
             startActivity(intent)
         }
     }
