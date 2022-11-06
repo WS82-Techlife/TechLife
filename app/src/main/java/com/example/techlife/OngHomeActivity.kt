@@ -10,8 +10,9 @@ class OngHomeActivity : AppCompatActivity() {
         setContentView(R.layout.ong_home_activity)
 
         val btProjects = findViewById<Button>(R.id.btProyectosOng)
+        val btprofile = findViewById<Button>(R.id.btPerfilOng)
         btProjects.setOnClickListener {
-            val intent = Intent(this, NProjects::class.java)
+            val intent = Intent(this, ONGProfileActivity::class.java)
             startActivity(intent)
         }
 
